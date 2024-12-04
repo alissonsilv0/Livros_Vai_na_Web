@@ -67,12 +67,36 @@
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 1050px){
+    .logoHeader {
+        width: 40%;
+    }
+
+    .navHeader {
+        width: 40%;
+    }
+}
+
+@media(max-width: 780px){
     .header {
         flex-direction: column;
         justify-content: space-evenly;
     }
 
+    .logoHeader {
+        width: 50%;
+    }
+
+    .navHeader {
+        width: 50%;
+    }
+
+    .barraDeBusca {
+        display: none;
+    }
+}
+
+@media(max-width: 620px){
     .logoHeader {
         width: 85%;
     }
@@ -80,8 +104,5 @@
     .navHeader {
         width: 95%;
     }
-
-    .barraDeBusca {
-        display: none;
-    }
 }
+

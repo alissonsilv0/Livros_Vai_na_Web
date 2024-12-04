@@ -53,7 +53,23 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1050px) {
+    .cards {
+        height: 40vh;
+
+        section {
+            p {
+                font-size: 16px;
+            }
+
+            img {
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
     .primeiraSessaoInicio {
         background-position: center;
         height: 50vh;

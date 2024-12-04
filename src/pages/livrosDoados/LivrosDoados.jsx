@@ -7,7 +7,7 @@ export default function LivrosDoados() {
             <h2>Livros Doados</h2>
             <section className={s.sectionCards}>
                 <section>
-                    <img src={LivroProtagonista} alt="" />
+                    <img src={LivroProtagonista} alt="Capa do livro Protagonista na cor vermelha com nome escrito na diagonal na cor branca" />
                     <div>
                         <h3>O protagonista</h3>
                         <p>Susanne Andrade</p>

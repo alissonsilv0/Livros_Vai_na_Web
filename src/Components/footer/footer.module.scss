@@ -25,13 +25,13 @@
     justify-content: center;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 780px) {
     .contatosFooter {
         flex-direction: column;
         justify-content: space-around;
 
         nav {
-            width: 60%;
+            width: 40%;
         }
     }
 
@@ -40,6 +40,14 @@
             font-size: 12px;
             width: 60%;
             text-align: center;
+        }
+    }
+}
+
+@media(max-width: 620px) {
+    .contatosFooter {
+        nav {
+            width: 60%;
         }
     }
 }
