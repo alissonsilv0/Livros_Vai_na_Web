@@ -24,8 +24,7 @@ export default function QueroDoar() {
     }
 
     
-    const envioDados = async(e) => {
-        e.preventDefault()
+    const envioDados = async() => {
         
         const dadosPEnviar = {
             titulo,
