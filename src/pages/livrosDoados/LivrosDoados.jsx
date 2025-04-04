@@ -27,7 +27,7 @@ export default function LivrosDoados() {
                             <div>
                                 <h3>{item.titulo}</h3>
                                 <p>{item.autor}</p>
-                                <p>{item.genero}</p>
+                                <p>{item.categoria}</p>
                             </div>
                         </section>
                     ))
